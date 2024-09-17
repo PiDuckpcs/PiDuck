@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("design/bg.png");
+  background-size: cover;
+}
+
+@font-face {
+  font-family: "Custom";
+  src: url("design/custom.ttf");
+}
+
+* {
+  font-family: "Custom";
+  color: white;
+}
+
+div {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 60%;
+}
+
+h2 {
+  color: #2A9124;
+  font-size: 500%;
+  text-align: center;
+}
+
+button {
+  background-color: #52B54F;
+  border-radius: 80px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 2%;
+  margin-left: 45%;
+  border: none;
+  outline: none;
+  display: block;
+  font-size: 200%;
+}
+
+button:hover {
+  background-color: #2A9124;
+  scale: 1.05;
+}
+
+.rules p {
+  font-size: 200%;
+}
+
+.rules div {
+  margin-bottom: 5%;
+}
+
+.rules img {
+  width: 60%
+}
+
+.form {
+  margin-top: 10%;
+}
+
+.form button {
+  margin-left: 41%;
+}
+
+.form .back {
+  margin-left: 46.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.back {
+  margin-left: 47%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.quiz {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.quiz form div {
+  color: #2A9124;
+  font-size: 1000%;
+}
+
+.quiz input {
+  border: none;
+  border-radius: 16px;
+  color: #52B54F;
+  height: 50px;
+  width: 300px;
+  font-size: 300%;
+}
+
+.quiz button {
+  margin-left: 45.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.quiz .verify {
+  margin-top: 4%;
+  font-size: 300%;
+}
+
+.score {
+  margin-top: 15%;
+}
+
+.score div {
+  font-size: 300%;
+}
+
+.gone {
+  visibility: hidden;
+  margin-left: 46%;
+}
+
+#end {
+  margin-top: -4%;
+}
