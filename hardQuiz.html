@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trig Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="design/icon.png"/>
+    <script src = "script.js"></script>
+  </head>
+  <body onload = "createPblmHardTest()">
+    <div>
+      <h1 class = "verify" id = "timer">15</h1>
+    </div>
+    <div class = "quiz" onload = "myTimer()">
+    <form onsubmit = "return false">
+      <div id="question"></div>
+      <input type="text" id="userAnswer" name="userAnswer" required>
+      <br>
+      <button id = "submit" name="submit" onclick = "getDataHardTest()">Submit</button>
+    </form>
+    <br>
+    <div class = "verify" id = "verifyAns"></div>
+    <br> 
+    <button class = "gone" id = "next" name = "next" onclick = "window.location.href='hardQuiz.html'">Next</button>
+    <button class = "gone" id = "end" onclick = "window.location.href='endPage.html'">End</button>
+  </div>
+  </body>
+</html>
